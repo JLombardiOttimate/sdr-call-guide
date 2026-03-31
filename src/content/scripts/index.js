@@ -10,5 +10,12 @@ export function getScript(role, trigger, vertical) {
   if (!r) return null;
   const s = r[trigger] || r["generic"];
   if (!s) return null;
-  return { intro: s.intro?.[vertical] || "", discovery: s.discovery || [], listenFor: s.listenFor || "", hook: s.hook?.[vertical] || "", pitch: s.pitch?.[vertical] || [], close: s.close || "" };
+  return {
+    intro: s.intro?.[vertical] || "",
+    discovery: (Array.isArray(s.discovery) ? s.discovery : s.discovery?.[vertical]) || [],
+    listenFor: s.listenFor || "",
+    recap: s.recap || "",
+    pitch: s.pitch?.[vertical] || [],
+    close: (typeof s.close === "string" ? s.close : s.close?.[vertical]) || "",
+  };
 }

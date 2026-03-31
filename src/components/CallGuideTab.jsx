@@ -35,26 +35,37 @@ export default function CallGuideTab({ script, role, trigger, monthClose, monthC
           )}
         </div>
       )}
+
+      {/* Intro */}
       <Section title="Intro" color="#185FA5">
         <ScriptBlock text={script.intro} />
         {monthClose.active && trigger !== "month_close" && monthCloseMode === "inject" && MONTH_CLOSE_INJECT[role] && (
           <div style={{ background: "#FFF8EB", borderLeft: "3px solid #F5C775", padding: "8px 12px", marginTop: 8, borderRadius: "0 6px 6px 0", fontSize: 14, fontStyle: "italic", color: "#854F0B", lineHeight: 1.6 }}>{MONTH_CLOSE_INJECT[role]}</div>
         )}
       </Section>
+
+      {/* Discovery */}
       <Section title="Discovery questions" color="#0F6E56">
         <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
           {script.discovery.map((q, i) => (<div key={i} style={{ fontSize: 14, lineHeight: 1.6, color: "#333", padding: "8px 12px", background: "#f9fafb", borderRadius: 6, borderLeft: "3px solid #0F6E5633" }}>{q}</div>))}
         </div>
       </Section>
+
+      {/* Listen For (only if populated) */}
       {script.listenFor && <Section title="Listen for" color="#534AB7"><div style={{ fontSize: 13, color: "#534AB7", fontStyle: "italic", lineHeight: 1.6, padding: "8px 12px", background: "#EEEDFE", borderRadius: 6 }}>{script.listenFor}</div></Section>}
-      <Section title="Hook" color="#D85A30"><ScriptBlock text={script.hook} /></Section>
+
+      {/* Recap */}
+      {script.recap && <Section title="Recap (use after discovery)" color="#6B7280"><ScriptBlock text={script.recap} /></Section>}
+
+      {/* Pitch */}
       <Section title="Pitch + proof points" color="#854F0B">
         <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
           {script.pitch.map((p, i) => (<div key={i} style={{ fontSize: 14, lineHeight: 1.6, color: "#333", padding: "8px 12px", background: "#FFFDF5", borderRadius: 6, borderLeft: "3px solid #854F0B33" }}>{p}</div>))}
         </div>
       </Section>
+
+      {/* Close */}
       <Section title="Close" color="#1a1a1a"><ScriptBlock text={script.close} /></Section>
-      <Section title="Recap (use after discovery)" color="#6B7280"><ScriptBlock text={`"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`} /></Section>
     </div>
   );
 }

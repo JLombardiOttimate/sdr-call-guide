@@ -18,7 +18,7 @@ export const TRIGGERS = [
   { id: "audit", label: "Audit or compliance pressure", sub: "External deadline forcing the fix", tag: "FORCING FUNCTION", color: "#534AB7" },
   { id: "erp", label: "ERP migration", sub: "Already changing systems, natural on-ramp", tag: "ON-RAMP", color: "#0F6E56" },
   { id: "month_close", label: "Month-end close pain", sub: "Overtime, errors, frustration at the limit", tag: "EMOTIONAL", color: "#854F0B" },
-  { id: "vendor_friction", label: "Vendor payment friction", sub: "Late fees, missed discounts, margin leakage", tag: "FINANCIAL", color: "#D85A30" },
+  { id: "vendor_friction", label: "Vendor payment friction / Margin pressure", sub: "Late fees, missed discounts, margin leakage", tag: "FINANCIAL", color: "#D85A30" },
   { id: "new_leader", label: "New financial leader", sub: "Arrives with conviction, looking for a vendor", tag: "CHAMPION-LED", color: "#185FA5" },
   { id: "competitor_frustration", label: "Frustration with current solution", sub: "Price, service, or features not cutting it", tag: "DISPLACEMENT", color: "#534AB7" },
 ];
