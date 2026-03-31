@@ -1,0 +1,10 @@
+export default {
+  generic: {
+    intro: { hospitality: `"Hi [Name], this is [SDR] from Ottimate. I work with a lot of hospitality operators, and something I've noticed: they often have a general feeling that something is off with their AP workflows, but can't put their finger on it. Does that ever happen to you?"`, grocery: `"Hi [Name], this is [SDR] from Ottimate. I work with a lot of grocery operators. They often feel something's off with AP but can't pin it down. Does that ever happen to you?"`, healthcare: `"Hi [Name], this is [SDR] from Ottimate. I work with a lot of healthcare operators. They often sense something's off with AP but can't pin it down. Does that resonate?"` },
+    discovery: ["What's keeping you up at night operationally: staffing, costs, growth?", "If your back office ran 10x more efficiently, where would that capital go?", "Who manages your AP function today? Are they stretched?"],
+    listenFor: "Owners think big picture. Listen for growth, margin, and competitive language. Close fast.",
+    hook: { hospitality: `"The operators who are winning right now are automating AP so they can redeploy staff to guest experience and revenue. They're not hiring more AP people. They're automating them."`, grocery: `"Grocers are margin-squeezed. The smart ones are catching cost leaks through AP automation. One 115-store group recovered $4.9M in cost visibility in year one."`, healthcare: `"DSOs that automate AP can scale revenue without scaling support costs. That's pure leverage for EBITDA."` },
+    pitch: { hospitality: ["A restaurant group automated AP and went from 50 hours a week to 4. They redirected capacity to revenue management."], grocery: ["A 115-store grocer cut AP processing by 70% and recovered $4.9M in cost leakage."], healthcare: ["A DSO with 103 sites handles 6,000+ invoices a month with less staff than before."] },
+    close: `"Would it make sense to spend 20 minutes with someone on our team who can show you what this looks like and how it impacts your model?"`,
+  },
+};
