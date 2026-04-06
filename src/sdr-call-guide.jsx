@@ -5,6 +5,7 @@ import Pill from "./components/Pill";
 import CallGuideTab from "./components/CallGuideTab";
 import ObjectionsTab from "./components/ObjectionsTab";
 import BattlecardsTab from "./components/BattlecardsTab";
+import ResourcesTab from "./components/ResourcesTab";
 
 export default function SDRCallGuide() {
   const [step, setStep] = useState(0);
@@ -118,11 +119,13 @@ export default function SDRCallGuide() {
             <Pill label="📋 Call guide" active={tab === "guide"} onClick={() => setTab("guide")} />
             <Pill label="🛡 Objections" active={tab === "objections"} onClick={() => setTab("objections")} />
             <Pill label="⚔️ Battlecards" active={tab === "battlecards"} onClick={() => setTab("battlecards")} />
+            <Pill label="📎 Content" active={tab === "resources"} onClick={() => setTab("resources")} />
           </div>
 
           {tab === "guide" && <CallGuideTab script={script} role={role} trigger={trigger} monthClose={monthClose} monthCloseMode={monthCloseMode} setMonthCloseMode={setMonthCloseMode} onLoadGeneric={() => setTrigger("generic")} />}
           {tab === "objections" && <ObjectionsTab role={role} />}
           {tab === "battlecards" && <BattlecardsTab selectedCompetitor={selectedCompetitor} setSelectedCompetitor={setSelectedCompetitor} />}
+          {tab === "resources" && <ResourcesTab selectedVertical={vertical} />}
         </div>
       )}
     </div>
