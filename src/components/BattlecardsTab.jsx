@@ -2,15 +2,18 @@ import { BATTLECARDS } from '../content/battlecards';
 import Section from './Section';
 import Pill from './Pill';
 
+const competitors = Object.keys(BATTLECARDS);
+
 export default function BattlecardsTab({ selectedCompetitor, setSelectedCompetitor }) {
   const card = BATTLECARDS[selectedCompetitor];
-  const accentColor = selectedCompetitor === "stampli" ? "#D85A30" : "#185FA5";
+  const accentColor = "#185FA5";
 
   return (
     <div>
-      <div style={{ display: "flex", gap: 8, marginBottom: 20 }}>
-        <Pill label="Stampli" active={selectedCompetitor === "stampli"} onClick={() => setSelectedCompetitor("stampli")} color="#D85A30" />
-        <Pill label="Ramp" active={selectedCompetitor === "ramp"} onClick={() => setSelectedCompetitor("ramp")} color="#185FA5" />
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 20 }}>
+        {competitors.map(key => (
+          <Pill key={key} label={BATTLECARDS[key].name} active={selectedCompetitor === key} onClick={() => setSelectedCompetitor(key)} />
+        ))}
       </div>
       {card && (
         <div>
