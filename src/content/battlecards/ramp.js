@@ -5,7 +5,7 @@ export default {
   whenYouSee: [
     "Prospect mentions corporate cards, spend management, or 'free' AP tools",
     "Prospect is tech-forward or startup-adjacent in their thinking",
-    "McCaffreys deal: Ramp appeared but was never actively neutralized. This is a growing threat.",
+    "Prospect asks about cashback rebates or working capital optimization as part of their AP evaluation",
   ],
   weWin: [
     { area: "Purpose-built AP vs. bolted-on AP", detail: "Ramp's AP is a feature inside a card product. Ours is a purpose-built AP automation platform with 10+ years of AI training data. For multi-entity operators with complex GL structures, the depth difference shows up fast." },
@@ -15,9 +15,9 @@ export default {
     { area: "Vendor payment flexibility", detail: "VendorPay handles check, ACH, and virtual card with a rebate model. Ramp's payment rails are tied to their corporate card ecosystem. If the prospect's vendors don't accept cards, Ramp's value proposition shrinks." },
   ],
   theyWin: [
-    { area: "Price (perception)", detail: "Ramp leads with 'free software.' It's compelling at first glance. The reality is their revenue comes from card interchange, so 'free' means you're paying through card adoption. But the SDR needs to be prepared for this objection." },
+    { area: "Price (perception)", detail: "Ramp leads with 'free software.' The reality: their free tier only integrates with QuickBooks and Xero. NetSuite and Sage Intacct require the paid Plus tier ($15/user/month + platform fee). For a 50-user hospitality group on Sage Intacct, that's $750+/month, not free. But the SDR needs to be prepared for the initial 'free' objection." },
     { area: "Spend management breadth", detail: "If the prospect wants corporate cards + expense management + AP in one platform, Ramp's bundled pitch is appealing. We don't do corporate cards." },
-    { area: "Modern UI / brand", detail: "Ramp has a slick product and strong brand with tech companies. Don't trash the product. Acknowledge it and redirect to fit." },
+    { area: "Modern UI / brand", detail: "Ramp has a slick product, $32B valuation, and strong brand with tech companies. 4.8/5 on G2 with 2,100+ reviews. Don't trash the product. Acknowledge it and redirect to vertical fit." },
   ],
   trapQuestions: [
     `"How many entities or properties are you running? Because that's where the complexity of AP really shows up, and not every tool handles multi-entity GL mapping natively."`,
