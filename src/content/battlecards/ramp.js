@@ -16,7 +16,6 @@ export default {
   ],
   theyWin: [
     { area: "Price (perception)", detail: "Ramp leads with 'free software.' The reality: their free tier only integrates with QuickBooks and Xero. NetSuite and Sage Intacct require the paid Plus tier ($15/user/month + platform fee). For a 50-user hospitality group on Sage Intacct, that's $750+/month, not free. But the SDR needs to be prepared for the initial 'free' objection." },
-    { area: "Spend management breadth", detail: "If the prospect wants corporate cards + expense management + AP in one platform, Ramp's bundled pitch is appealing. We don't do corporate cards." },
     { area: "Modern UI / brand", detail: "Ramp has a slick product, $32B valuation, and strong brand with tech companies. 4.8/5 on G2 with 2,100+ reviews. Don't trash the product. Acknowledge it and redirect to vertical fit." },
   ],
   trapQuestions: [
