@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "NetSuite is a powerful ERP, but their own implementation partners recommend adding a third-party AP tool on top. That tells you something about where the native AP falls short.",
+    support: "Worth asking: Where has your team had to work around what NetSuite's AP can do, especially on complex invoices or when you're running payments across multiple entities?",
+  },
   name: "NetSuite AP",
   tagline: "Strong ERP, weak native AP. Even their own partners recommend third-party AP tools.",
   overview: "Oracle NetSuite is a cloud ERP serving 43,000+ organizations. AP capabilities are included in the base platform (Bill Capture for OCR, SuiteApprovals for workflows, SuiteBanking for payments). But NetSuite's own implementation partners openly recommend third-party AP tools, and their new 'Intelligent Payment Automation' is powered by BILL, a third-party AP provider, effectively admitting native payments were insufficient.",

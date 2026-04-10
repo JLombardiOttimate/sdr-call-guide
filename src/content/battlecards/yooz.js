@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Yooz is a European SMB tool with solid Sage integration, but it's a horizontal platform with no workflows built for [VERTICAL]. Ottimate is purpose-built for operators like you.",
+    support: "Worth asking: How often is your team going back to correct OCR errors on invoices that come in a non-standard format?",
+  },
   name: "Yooz",
   tagline: "European SMB AP tool with strong Sage integration. Thin on vertical depth.",
   overview: "Yooz is a cloud AP automation platform with French origins, serving 7,000+ customers across 50+ countries. They have a strong partnership with Sage (certified Tech Partner, 1,500+ Sage clients). They target SMB organizations with a volume-based pricing model at roughly $0.99/invoice. Their OCR is built on 35+ years of document processing heritage, but accuracy gets mixed reviews on complex invoice formats.",

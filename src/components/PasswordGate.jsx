@@ -24,11 +24,11 @@ export default function PasswordGate({ children }) {
   const font = "'DM Sans', 'Helvetica Neue', sans-serif";
 
   return (
-    <div style={{ fontFamily: font, display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", padding: 20 }}>
+    <div style={{ fontFamily: font, display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", padding: 20, background: "var(--bg-page)" }}>
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
       <div style={{ width: "100%", maxWidth: 360, textAlign: "center" }}>
         <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: 1.5, color: "#854F0B", textTransform: "uppercase", marginBottom: 4 }}>Ottimate SDR</div>
-        <div style={{ fontSize: 22, fontWeight: 700, color: "#1a1a1a", lineHeight: 1.2, marginBottom: 32 }}>Call Guide</div>
+        <div style={{ fontSize: 22, fontWeight: 700, color: "var(--text-primary)", lineHeight: 1.2, marginBottom: 32 }}>Call Guide</div>
         <form onSubmit={handleSubmit}>
           <input
             type="password"
@@ -38,14 +38,15 @@ export default function PasswordGate({ children }) {
             autoFocus
             style={{
               fontFamily: "inherit", fontSize: 15, width: "100%", padding: "12px 16px",
-              border: error ? "1px solid #D85A30" : "1px solid #d4d4d4", borderRadius: 8,
+              border: error ? "1px solid #D85A30" : "1px solid var(--border-input)", borderRadius: 8,
               outline: "none", boxSizing: "border-box", marginBottom: 12,
+              background: "var(--bg-page)", color: "var(--text-primary)",
             }}
           />
           {error && <div style={{ fontSize: 13, color: "#D85A30", marginBottom: 12 }}>Incorrect password. Try again.</div>}
           <button type="submit" style={{
             fontFamily: "inherit", fontSize: 14, fontWeight: 600, width: "100%",
-            padding: "12px 16px", background: "#1a1a1a", color: "#fff", border: "none",
+            padding: "12px 16px", background: "var(--btn-primary-bg)", color: "var(--btn-primary-text)", border: "none",
             borderRadius: 8, cursor: "pointer",
           }}>Continue</button>
         </form>

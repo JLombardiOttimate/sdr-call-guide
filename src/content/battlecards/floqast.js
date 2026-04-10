@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "FloQast is a month-end close management tool, not AP automation. It tracks whether AP tasks got done. Ottimate actually does the AP work.",
+    support: "Worth asking: When an invoice comes in, what does FloQast actually do with it, like capturing it, coding it, routing it for approval, and sending the payment?",
+  },
   name: "FloQast",
   tagline: "Accounting close management tool, not AP automation. Different problem, different buyer.",
   overview: "FloQast is the #1 accounting close management platform on G2, used by 3,000+ teams to streamline month-end close. They've added a workflow module called FloQast Ops that can track AP-related tasks, but it does not include invoice capture, coding, approval routing, or payments. FloQast and Ottimate solve different problems for different buyers.",

@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Stampli is more of an out-of-the-box solution, so it's really not specifically designed for [VERTICAL]. Ottimate is specifically designed for the needs of [VERTICAL].",
+    support: "Worth asking: Can I ask, where is your team still having to work around Stampli because it doesn't quite fit how your industry operates?",
+  },
   name: "Stampli",
   tagline: "Good at collaboration, weak on vertical depth",
   overview: "Stampli positions itself as a communication-centric AP platform. Strong on approver collaboration features and a clean UI. They sell across industries without deep vertical specialization.",

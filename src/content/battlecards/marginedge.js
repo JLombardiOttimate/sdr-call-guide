@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "MarginEdge is strong on food cost analytics, but their invoice processing relies on human analysts with a 24-48 hour turnaround. Ottimate processes invoices in real time with AI.",
+    support: "Worth asking: Has that 24-48 hour processing turnaround ever caused a problem at month-end close, or when a vendor needed to know a payment was on the way?",
+  },
   name: "MarginEdge",
   tagline: "Restaurant cost management with AP features. Deep on food cost, shallow on AP automation.",
   overview: "MarginEdge is a restaurant-specific platform for invoice processing, food cost tracking, recipe costing, and inventory management. Founded by restaurant operators (Wasabi, Bonefish Grill backgrounds). Serves 7,000-11,000 restaurants. They process invoices using a hybrid of AI and human analysts with restaurant experience, which means 24-48 hour turnaround. Strong on food cost intelligence, but limited on AP automation depth.",

@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Tipalti was built for global mass payments, not invoice intelligence. If your operation is in [VERTICAL], their platform wasn't designed with your workflows in mind.",
+    support: "Worth asking: Are you seeing sync errors between Tipalti and your accounting system, or places where your team built workarounds just to make the data match up?",
+  },
   name: "Tipalti",
   tagline: "Built for mass payments, not invoice intelligence. Strong globally, shallow vertically.",
   overview: "Tipalti is a mid-market AP and payment automation platform. Their core strength is global mass payments (200+ countries, 120+ currencies) and tax compliance (W-9/1099 collection). They added invoice automation later. They target tech, media, and e-commerce companies. No dedicated hospitality, grocery, or healthcare features.",

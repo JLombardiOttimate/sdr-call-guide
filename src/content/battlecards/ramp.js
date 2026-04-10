@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Ramp is really focused on payments and corporate cards, but that means AP is an afterthought. Ottimate is best-in-class for AP workflows like yours.",
+    support: "Worth asking: Out of curiosity, where does the invoice side of things still fall on your team to manage manually?",
+  },
   name: "Ramp",
   tagline: "Corporate card company expanding into AP. Different product, different fit.",
   overview: "Ramp started as a corporate card and spend management platform. They've added AP automation as a feature within their broader suite. They lead with 'free software' positioning and target tech-forward, growth-stage companies. They're expanding into mid-market and increasingly showing up in our deals.",

@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "xtraCHEF is a food cost tool that Toast acquired. It's great for recipe costing, but it was never built to be a full AP automation platform.",
+    support: "Worth asking: What happens when an invoice comes in that doesn't match your item master? How much time is your team spending on that manually?",
+  },
   name: "xtraCHEF by Toast",
   tagline: "Restaurant food cost tool with basic AP features. POS-locked to Toast.",
   overview: "xtraCHEF is Toast's back-of-house platform for invoice scanning, recipe costing, and food cost management. Acquired by Toast in 2021. The full feature set only works with Toast POS, making it non-viable for operators on other point-of-sale systems. It's a food cost management tool with AP capabilities, not an AP automation platform with food cost features.",

@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Sage is a great GL, but it was never built to be an AP automation platform. That's exactly why Sage has 40+ AP automation partners in their own marketplace.",
+    support: "Worth asking: Where does your team end up working outside of Sage, like in email or spreadsheets, just to get the AP process done?",
+  },
   name: "Sage Intacct",
   tagline: "Strong GL, weak AP. Most Sage shops need a better front-end for invoices.",
   overview: "Sage Intacct is a cloud ERP platform with native AP capabilities. It excels at multi-entity financial consolidation and dimensional accounting, but the AP module is a generic add-on, not a purpose-built AP automation tool. Sage has 40+ AP automation partners in their own marketplace, which tells you everything about where their native AP falls short.",

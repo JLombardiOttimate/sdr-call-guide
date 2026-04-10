@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Avid is a big company, but they're not keeping up with AI advancements that truly save you time. For example, they can't auto-split GL codes across line items on complex invoices like we can.",
+    support: "Worth asking: Where is your team still doing things manually that you expected Avid to handle automatically?",
+  },
   name: "AvidXchange",
   tagline: "Legacy AP platform strong in real estate and senior living. Weak on line-item intelligence and EDI.",
   overview: "AvidXchange is a dedicated AP automation and payment platform, recently taken private by TPG and Corpay for $2.2B. Revenue of $439M with 240+ ERP integrations and a payment network of 965,000+ suppliers. They target real estate, healthcare, construction, and mid-market organizations. They also have 'AvidSuite for Yardi,' a purpose-built Yardi integration. Their biggest vulnerabilities are slow customer support, payment processing delays, and an inability to handle complex multi-line invoices with automatic GL coding.",

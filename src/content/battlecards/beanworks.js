@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Beanworks is an older platform that hasn't kept up, and their customers feel it. Ottimate was built from the ground up with AI, specifically for operators like you.",
+    support: "Worth asking: Where does the system slow your team down enough that they've kind of just accepted it as the way things are?",
+  },
   name: "Beanworks / Quadient",
   tagline: "Legacy AP tool entrenched in clubs. Slow, clunky, and losing customers to us.",
   overview: "Beanworks is an AP automation platform now owned by Quadient (acquired 2021 for $100M). It also powers Sage APA, a white-label version sold through Sage's marketplace. Historically strong in hospitality, especially country clubs and golf clubs. Shows up as the incumbent in roughly 27% of competitive hospitality deals. Core capabilities are invoice capture, approval workflows, and basic payments, but performance and feature gaps are well-documented by prospects who've switched.",

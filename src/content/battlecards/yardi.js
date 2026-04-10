@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Yardi is a property management ERP, and their AP automation is a feature they recently added. It's new, unproven at scale, and not built for the invoice complexity of [VERTICAL].",
+    support: "Worth asking: What happens when you get an invoice that doesn't fit the typical property management format? Who on your team handles those exceptions?",
+  },
   name: "Yardi",
   tagline: "Property management ERP pushing into AP automation. New AI features, but still ERP-native and unproven.",
   overview: "Yardi is a property management ERP serving real estate, senior living, and some hospitality operators. They're actively expanding AP automation with 'Smart AP' (launched October 2025, free with Breeze Premier) and 'Virtuoso AI' agents for AP processing. Their native AP is getting more capable, but most Yardi users still layer third-party AP tools on top. AvidXchange even has a dedicated 'AvidSuite for Yardi' integration, which tells you where the native AP falls short.",

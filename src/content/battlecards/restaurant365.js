@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "R365 is an all-in-one restaurant platform, but AP is just one piece of a large suite. Many R365 customers add Ottimate on top specifically because the native AP doesn't go deep enough.",
+    support: "Worth asking: Are you using R365's built-in AP capture, or the paid service where they manually key invoices for you? And how is that working on your more complex invoices?",
+  },
   name: "Restaurant365",
   tagline: "All-in-one restaurant ERP. Broad but shallow on AP. Users supplement with dedicated AP tools.",
   overview: "Restaurant365 is a restaurant management platform covering accounting, AP, inventory, purchasing, workforce management, and payroll. $132M revenue, 40,000-50,000 locations. Backed by KKR and L Catterton. They win on the 'single platform' argument for restaurant operators. But their AP module is one piece of a large platform, not a specialized tool, and users often supplement it with third-party AP automation.",

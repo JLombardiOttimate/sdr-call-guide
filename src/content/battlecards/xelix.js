@@ -1,4 +1,8 @@
 export default {
+  quickHitter: {
+    headline: "Xelix is an audit overlay that sits on top of an AP system. It catches problems after the fact. Ottimate catches them during processing, before payment goes out.",
+    support: "Worth asking: How many duplicate payments or overcharges has your team caught after the payment already went out, and what did it take to get that money back?",
+  },
   name: "Xelix",
   tagline: "AP audit overlay, not AP automation. Complementary, not competitive.",
   overview: "Xelix is a UK-based AP audit and analytics platform that bolts onto existing ERP and AP systems. It detects duplicate invoices, fraud, and payment errors using ML-based anomaly detection. It does NOT handle invoice capture, approval workflows, or payments. Think of it as an audit layer on top of AP, not a replacement for AP automation.",
