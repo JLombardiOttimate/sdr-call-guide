@@ -9,6 +9,7 @@ export const ROLES = [
   { id: "cfo", label: "CFO", sub: "Financial buyer · 60% win rate" },
   { id: "ap_manager", label: "AP Manager / Clerk", sub: "Secondary champion · 40% win rate" },
   { id: "owner_ops", label: "Owner / GM / Ops", sub: "Economic buyer · 70% win rate when engaged" },
+  { id: "it_leader", label: "IT / Technical", sub: "Lateral influencer · integration and security focus" },
 ];
 
 export const TRIGGERS = [
