@@ -144,5 +144,19 @@ export default function SDRCallGuide() {
         </div>
       )}
     </div>
+
+      )}
+
+      <div style={{
+        marginTop: 48,
+        paddingTop: 16,
+        borderTop: "1px solid var(--border)",
+        textAlign: "center",
+        fontSize: 13,
+        color: "var(--text-secondary)",
+      }}>
+        Having issues? Reach out to Eileen Iglesias.
+      </div>
+    </div>
   );
 }
