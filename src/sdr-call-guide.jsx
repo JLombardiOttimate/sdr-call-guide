@@ -142,9 +142,7 @@ export default function SDRCallGuide() {
           {tab === "battlecards" && <BattlecardsTab selectedCompetitor={selectedCompetitor} setSelectedCompetitor={setSelectedCompetitor} />}
           {tab === "resources" && <ResourcesTab selectedVertical={vertical} />}
         </div>
-      )}
-    </div>
-
+  
       )}
 
       <div style={{
