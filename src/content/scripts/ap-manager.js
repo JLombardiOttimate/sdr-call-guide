@@ -1,17 +1,32 @@
 export default {
   generic: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for hospitality. Most AP teams at restaurant and hotel groups are spending 80–90% of their time on coding and data entry — one hospitality group we work with went from 50 hours a week down to 4. If you think back to last month's close, how much of your time was spent on manual entry versus work that actually drives your business forward?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for grocery operators. Grocers are drowning in direct store delivery invoices — one grocer we work with went from 1 to 2 days spent on AP processing down to 1 hour a day. What does your typical day look like right now in terms of time spent just getting invoices into the system?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for healthcare. Healthcare AP teams are buried in invoices with special requirements — PHI handling, cost center splits, insurance subrogation — but one company we work with cut their invoicing time by 80% by leveraging our native AI. How much of your day right now is spent on the repetitive side of AP versus the work you actually want to be doing?"`,
+      hospitality: `"Hi [Name], [Name] from Ottimate. We automate the 'grunt work' for hospitality AP teams. We recently saw a partner go from 50 hours of manual entry down to 4. When you think about your current month-end close, are you spending more time chasing paper or driving the business forward?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for grocery teams. Grocers are drowning in DSD invoices — one grocer we work with went from 1 to 2 days spent on AP processing down to 1 hour a day. How does this compare with what you're doing day to day?"`,
+      healthcare: `"Hi [Name], [SDR] with Ottimate. We help healthcare AP teams cut their manual invoice processing time by about 80% using AI. How much of your day right now is spent on the repetitive side of AP versus the work you actually want to be doing?"`,
     },
-    discovery: [
-      "Walk me through your day — how much time is spent on data entry, coding, and approval routing?",
-      "What's the biggest bottleneck in your process today?",
-      "How often do invoices bounce back due to missing information or coding errors?",
-      "What would you do with 10 more hours a week if they appeared magically?",
-      "Who do you report to — a Controller or CFO? Would they be interested in this too?",
-    ],
+    discovery: {
+      hospitality: [
+        "Walk me through your day — how much time is spent on data entry, coding, and approval routing?",
+        "What's the biggest bottleneck in your process today?",
+        "How often do invoices bounce back due to missing information or coding errors?",
+        "What would you do with 10 more hours a week if they appeared magically?",
+      ],
+      grocery: [
+        "Walk me through your day — how much time is spent on data entry, coding, and approval routing?",
+        "What's the biggest bottleneck in your process today?",
+        "How often do invoices bounce back due to missing information or coding errors?",
+        "What would you do with 10 more hours a week if they appeared magically?",
+        "Who do you report to — a Controller or CFO? Would they be interested in this too?",
+      ],
+      healthcare: [
+        "Walk me through your day — how much time is spent on data entry, coding, and approval routing?",
+        "What's the biggest bottleneck in your process today?",
+        "How often do invoices bounce back due to missing information or coding errors?",
+        "What would you do with 10 more hours a week if they appeared magically?",
+        "Who do you report to — a Controller or CFO? Would they be interested in this too?",
+      ],
+    },
     listenFor: "",
     recap: `"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`,
     pitch: {
@@ -26,7 +41,7 @@ export default {
       ],
     },
     close: {
-      hospitality: `"Would it make sense to spend 20 minutes with someone on our team so you can see what this looks like? And it might be worth looping in your Controller/CFO too — they'll want to see the cost angle."`,
+      hospitality: `"Would it make sense to spend 20 minutes with someone on our team so you can see how much time we can save you? And it might be worth looping in your Controller/CFO too — they'll want to see the cost angle."`,
       grocery: `"Would it make sense to spend 20 minutes with someone on our team so you can see what this looks like? I'd love to walk you through how Heritage Grocers, with over 100 stores cut processing time by 70%."`,
       healthcare: `"Would it make sense to spend 20 minutes with someone on our team so you can see what this looks like? I'd love to walk you through how Gen4 Dental cut processing time by 80% and actually improved accuracy with our platform."`,
     },

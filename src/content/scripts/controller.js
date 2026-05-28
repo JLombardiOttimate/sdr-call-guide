@@ -1,9 +1,9 @@
 export default {
   generic: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate — we're an accounts payable automation platform built specifically for hospitality operators. We work with restaurant and hotel groups at your scale, and what we typically find vendors overbilling 3–5% on food and supply invoices — at your volume, that's over $140K a month in pricing errors slipping through. What does your visibility look like right now into where money is leaking across your properties?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an accounts payable automation platform built specifically for grocery operators. Based on what we see with grocers your size, vendors are typically overcharging about 5% on invoices — one of our customers uncovered $4.9 million in cost discrepancies in their first year. What kind of visibility do you have today into whether your invoices match your contracted rates?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're an accounts payable automation platform built specifically for healthcare organizations. Our healthcare customers catch an average of $136K per month in vendor pricing errors and contract mischarges — saving over $1.2M a year just by catching what their old process missed. How confident are you that your current AP process is catching those kinds of discrepancies before they go out the door?"`,
+      hospitality: `"Hi [Name], [Name] with Ottimate. We help hospitality groups plug the 'leaks' in their AP process. We typically find $140k a month in vendor overbilling for groups at your scale. Is auditing for those pricing errors something your team has the bandwidth for right now, or how are you tracking that today?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're a platform built for grocery that automates the accounts payable and cost confirmation process for your DSD invoices. We typically see that most grocery teams don't catch about 2.14% of their total spend in vendor overcharges, and that can add up. Curious if this is something that resonates at all?"`,
+      healthcare: `"Hi [Name], [SDR] from Ottimate. Most AP teams we work with find that manual audits only catch about 20% of vendor pricing errors. We automate that reconciliation, which helps our clients recover an average of $136K a month in found money. How are you currently quantifying the percentage of billing errors your team might be missing?"`,
     },
     discovery: [
       "Walk me through what happens when an invoice comes in today — what does that workflow look like?",
@@ -30,9 +30,9 @@ export default {
   },
   staff_turnover: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for hospitality. I noticed [company] is hiring for an AP role, and I know how hard it is to find the right person in this market. Our hospitality customers identify $143K per month in vendor overcharges and pricing errors — and when you're short-staffed, those slip through even faster. How is the team managing the workload while that position is open?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for grocery operators. I noticed [company] is hiring for an AP role. Grocers your size are typically overcharged about 5% on invoices, and with a lean team, nobody has time to check. What's happening to your invoice accuracy while you're covering that open seat?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for healthcare organizations. I noticed [company] is hiring for an AP role. Healthcare organizations lose an average of $136K per month to vendor pricing errors and contract mischarges, and that exposure grows fast when you're understaffed. What does the workload look like for your team right now while you're trying to fill that gap?"`,
+      hospitality: `"Hi [Name], [Name] with Ottimate. I saw the job posting for an AP Specialist. Most hospitality teams we work with are turning to AI because they can't find staff to keep up with the volume — and the $140k in monthly overbillings that happen when people are rushed. Is the team currently underwater, or do you have a stop-gap in place while you hire?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an accounts payable and cost confirmation software made for grocers. I noticed [company] is hiring for an AP role. Grocers your size are typically spending around 20 hours a week entering invoices. We see our clients bring that down by 80%. How are you managing while waiting to fill that seat?"`,
+      healthcare: `"Hi [Name], [SDR] with Ottimate. Saw you were hiring in AP — I know how much pressure builds during month-end close. We help healthcare teams automate the audit of vendor contracts to catch overcharges automatically. If you could automate the manual data entry side of that open role, would you still need to backfill it the same way?"`,
     },
     discovery: [
       "Have you had any turnover on your AP team in the last 12 months? What happened to the workload when that person left?",
@@ -44,14 +44,14 @@ export default {
     recap: `"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`,
     pitch: {
       hospitality: [
-        `Here's what Ottimate does: we use AI to automate invoice capture, GL coding, approval routing, and duplicate detection — so your existing team can handle the volume without the hire. Ottimate acts as your 'Digital AP Clerk' - by using AI to automate the capture and coding of 90% of your invoices, we reduce the pressure on your AP team as you're looking to fill your open position. Instead of spending weeks training a new person on your specific GL structure, our system already knows it. This gives you the breathing room while your current team stops drowning in the backlog left behind.`,
+        `Here's what Ottimate does: we use AI to automate invoice capture, GL coding, approval routing, and duplicate detection — so your existing team can handle the volume without the hire. Ottimate acts as your 'Digital AP Clerk' — by using AI to automate the capture and coding of 90% of your invoices, we reduce the pressure on your AP team as you're looking to fill your open position. Instead of spending weeks training a new person on your specific GL structure, our system already knows it. This gives you the breathing room while your current team stops drowning in the backlog left behind.`,
         "NorthStone Country Club has 90% of their invoices automatically coded.",
       ],
       grocery: [
-        `Here's what Ottimate does: we use AI to automate invoice capture, GL coding, approval routing, and duplicate detection — so your existing team can handle the volume without the hire. Ottimate acts as your 'Digital AP Clerk' - by using AI to automate the capture and coding of 90% of your invoices, we reduce the pressure on your AP team as you're looking to fill your open position. Instead of spending weeks training a new person on your specific GL structure, our system already knows it. This gives you the breathing room while your current team stops drowning in the backlog left behind.`,
+        `Here's what Ottimate does: we use AI to automate invoice capture, GL coding, approval routing, and duplicate detection — so your existing team can handle the volume without the hire. Instead of spending weeks training a new person on your specific GL structure, our system already knows it. This gives you the breathing room while your current team stops drowning in the backlog left behind.`,
       ],
       healthcare: [
-        `Here's what Ottimate does: we use AI to automate invoice capture, GL coding, approval routing, and duplicate detection — so your existing team can handle the volume without the hire. Ottimate acts as your 'Digital AP Clerk' - by using AI to automate the capture and coding of 90% of your invoices, we reduce the pressure on your AP team as you're looking to fill your open position. Instead of spending weeks training a new person on your specific GL structure, our system already knows it. This gives you the breathing room while your current team stops drowning in the backlog left behind.`,
+        `Here's what Ottimate does: we use AI to automate invoice capture, GL coding, approval routing, and duplicate detection — so your existing team can handle the volume without the hire. Instead of spending weeks training a new person on your specific GL structure, our system already knows it. This gives you the breathing room while your current team stops drowning in the backlog left behind. Ottimate acts as your 'Digital AP Clerk' — by using AI to automate the capture and coding of 90% of your invoices, we reduce the pressure on your AP team as you're looking to fill your open position.`,
       ],
     },
     close: {
@@ -62,9 +62,9 @@ export default {
   },
   month_close: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for hospitality operators. The Club at Admirals Cove was spending about 24 hours processing invoices before month-end close — after Ottimate, that dropped to under 5 minutes. How much of your month-end close time is currently tied up in invoice capture and GL coding?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for grocery operators. Our grocery customers save an average of 450 hours a year on AP, and Heritage Grocers Group — running 115 stores — cut their processing time by 70%. When you think about your last month-end close, what's the biggest bottleneck that slows you down?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for healthcare organizations. Gen4 Dental shaved a full day off their month-end AP close across 103 sites — internal questions that used to take 1 to 2 days to resolve now take minutes. How many of your vendor payments are you accruing and cleaning up later, rather than matching at the time of entry?"`,
+      hospitality: `"Hi [Name], [Name] with Ottimate. We help hospitality operators automate AP — Admirals Cove actually used us to drop their invoice processing time from 24 hours to 5 minutes. Is manual data entry currently a bottleneck for your team during the month-end rush?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an accounts payable and cost confirmation software made for grocers. We see that our clients save an average of 450 hours a year on AP, for example Heritage Grocers Group cut their processing time by 70%. When you think about your last month-end close, how are you managing the influx of invoices?"`,
+      healthcare: `"Hi [Name], [SDR] from Ottimate. We helped Gen4 Dental shave a full day off their month-end close by automating their line-item matching. Most healthcare groups we talk to are still accruing payments now and cleaning up the mess later. How much of your month-end is spent fixing coding errors versus actually closing the books?"`,
     },
     discovery: [
       "Walk me through the last 48 hours of your most recent month-end close. How many people were involved, and how many of those hours were overtime?",
@@ -76,16 +76,16 @@ export default {
     recap: `"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`,
     pitch: {
       hospitality: [
-        `Ottimate automates the three things that kill your close: invoice coding, approval routing, and exception handling. Our AI is trained on 10+ years of AP workflows, so it gets your GL structure right from day one. The reason month-end is 'eating you alive' is that you're chasing data from three weeks ago. Ottimate turns your AP into a real-time stream. We've seen controllers shave 3–5 days off their close simply because the data was already sitting in the system, approved and ready to go.`,
+        `Ottimate automates the three things that kill your close: invoice coding, approval routing, and exception handling. Our AI is trained on 10+ years of AP workflows, so it gets your GL structure right from day one. The reason month-end is eating you alive is that you're chasing data from three weeks ago. Ottimate turns your AP into a real-time stream. We've seen controllers shave 3 to 5 days off their close simply because the data was already sitting in the system, approved and ready to go.`,
         "Lazy Bear went from 12-15 hours a week on AP down to about 2 hours.",
         "The Club at Ravenna saw an 80% reduction in invoice processing time.",
       ],
       grocery: [
-        `Ottimate automates the three things that kill your close: invoice coding, approval routing, and exception handling. Our AI is trained on 10+ years of AP workflows, so it gets your GL structure right from day one. The reason month-end is 'eating you alive' is that you're chasing data from three weeks ago. Ottimate turns your AP into a real-time stream. We've seen controllers shave 3–5 days off their close simply because the data was already sitting in the system, approved and ready to go.`,
+        `Ottimate automates the three things that kill your close: invoice coding, approval routing, and exception handling. Our AI is trained on 10+ years of AP workflows, so it gets your GL structure right from day one. The reason month-end is eating you alive is that you're chasing data from three weeks ago. Ottimate turns your AP into a real-time stream. We've seen controllers shave 3 to 5 days off their close simply because the data was already sitting in the system, approved and ready to go. You can easily track why invoices went missing and get another copy quickly.`,
         "Estevez Markets processes AP in about 1 hour a day across 10 locations.",
       ],
       healthcare: [
-        `Ottimate automates the three things that kill your close: invoice coding, approval routing, and exception handling. Our AI is trained on 10+ years of AP workflows, so it gets your GL structure right from day one. The reason month-end is 'eating you alive' is that you're chasing data from three weeks ago. Ottimate turns your AP into a real-time stream. We've seen controllers shave 3–5 days off their close simply because the data was already sitting in the system, approved and ready to go.`,
+        `Ottimate automates the three things that kill your close: invoice coding, approval routing, and exception handling. Our AI is trained on 10+ years of AP workflows, so it gets your GL structure right from day one. The reason month-end is eating you alive is that you're chasing data from three weeks ago. Ottimate turns your AP into a real-time stream. We've seen controllers shave 3 to 5 days off their close simply because the data was already sitting in the system, approved and ready to go.`,
         "Gen4 processes an invoice from beginning to end — including payment proof — in a few hours instead of days.",
       ],
     },

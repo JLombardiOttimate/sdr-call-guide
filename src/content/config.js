@@ -22,6 +22,7 @@ export const TRIGGERS = [
   { id: "vendor_friction", label: "Vendor payment friction / Margin pressure", sub: "Late fees, missed discounts, margin leakage", tag: "FINANCIAL", color: "#D85A30" },
   { id: "new_leader", label: "New financial leader", sub: "Arrives with conviction, looking for a vendor", tag: "CHAMPION-LED", color: "#185FA5" },
   { id: "competitor_frustration", label: "Frustration with current solution", sub: "Price, service, or features not cutting it", tag: "DISPLACEMENT", color: "#534AB7" },
+  { id: "technology_implementation", label: "Technology evaluation / implementation", sub: "ERP project, system change, or IT-led initiative in flight", tag: "IT-LED", color: "#185FA5" },
 ];
 
 export function isMonthCloseWindow() {

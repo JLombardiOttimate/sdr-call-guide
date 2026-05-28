@@ -27,9 +27,9 @@ export default {
   },
   competitor_frustration: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for hospitality operators. The operators who are winning right now aren't hiring more AP people — they're automating them and redeploying staff to guest experience and revenue. What pieces of your AP workflow are still forcing your team to do things manually instead of focusing on growth?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for grocery. Grocers are margin-squeezed right now, and the smart ones are using AP automation to catch cost leaks — one 115-store group we work with recovered $4.9M in cost visibility in year one. If your back office ran 10x more efficiently, where would you redeploy that capital?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're an AP automation platform built for healthcare organizations. DSOs that automate AP can scale revenue without scaling support costs — that's pure leverage for EBITDA. What would it mean for your growth model if your AP function could handle twice the volume without adding headcount?"`,
+      hospitality: `"Hi [Name], [Name] from Ottimate. We help hospitality groups automate their back office so they can redeploy staff toward growth instead of paperwork. Looking at your current setup, which part of the AP process is still forcing your team to stay stuck in the weeds of manual entry?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate — we provide item-specific profitability protection for grocers. We're hearing everybody is margin-squeezed right now, and we usually see the grocers we work with recover 2.14% of their annual spend in cost discrepancies. Curious about how you're managing this?"`,
+      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're a fully HIPAA-compliant AP automation platform built for healthcare organizations. DSOs that automate AP can scale revenue without scaling support costs — that's pure leverage for EBITDA. What would it mean for your growth model if your AP function could handle twice the volume without adding headcount?"`,
     },
     discovery: {
       hospitality: [
@@ -40,7 +40,7 @@ export default {
       ],
       grocery: [
         "What's keeping you up at night operationally — staffing, costs, growth?",
-        "If your back office ran 10x more efficiently, where would that capital go?",
+        "If your back office ran 10x more efficiently, where would that time and attention be redirected?",
         "Who manages your AP function today? Are they stretched?",
         "What would a 2-3 percentage point improvement in operating margin mean to your business model?",
       ],
@@ -59,11 +59,11 @@ export default {
         "A restaurant group automated their AP and went from 50 hours a week to 4. They redirected that capacity to revenue management.",
       ],
       grocery: [
-        `To grow at the rate you want, your back office can't be a boat anchor. By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
+        `By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
         "A 115-store grocer cut AP processing by 70% and recovered $4.9M in cost leakage. Both margin and operational efficiency.",
       ],
       healthcare: [
-        `To grow at the rate you want, your back office can't be a boat anchor. By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
+        `By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
       ],
     },
     close: {

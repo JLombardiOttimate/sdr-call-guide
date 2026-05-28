@@ -91,4 +91,57 @@ export default {
     },
     close: `"The integration and scalability questions are best answered by our AE in a short technical call. I'd suggest looping in your Controller or CFO so the business and technical sides are aligned from the first conversation. Does that work?"`,
   },
+
+  technology_implementation: {
+    intro: {
+      hospitality: `"Hi [Name], this is [SDR] from Ottimate. We build AP automation for hospitality operators and we typically get pulled in during ERP projects or when the finance team is hitting a wall with their current setup. Have you noticed when there's friction between finance and operations teams, IT tends to bear the load of solutioning improvements?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate. We usually get approached by grocers for AP automation support, and as a middleware solution between the back office system and ERP we see that 2.14% of their annual spend stays hidden in cost discrepancies. Do you have visibility into how accounting and operations are tracking this issue?"`,
+      healthcare: `"Hi [Name], this is [SDR] from Ottimate. We work with healthcare groups on AP automation, and we often get introduced during ERP migrations or when finance is trying to close compliance gaps. Have you noticed when there's friction between finance and operations teams, IT tends to bear the load of solutioning improvements?"`,
+    },
+    discovery: {
+      hospitality: [
+        "Are you currently involved in any finance or accounting system evaluations?",
+        "What ERP or accounting system is the finance team on? Any changes planned?",
+        "How many entities or locations is IT supporting today, and where is that headed?",
+        "If finance came to you tomorrow and said they needed a new AP tool, what would their integration requirements look like?",
+        "Who on the finance side is owning the AP requirements? Is that the Controller or CFO?",
+      ],
+      grocery: [
+        "How does your accounting system communicate with the back office system today?",
+        "What back-office systems are the stores using?",
+        "What ERP or accounting system is the finance team on?",
+        "If accounting and the store could have real-time visibility into costs and tracking, how do you think it would increase the team's efficiency?",
+        "How many entities or locations is IT supporting today?",
+        "Are you currently involved in any finance or accounting system evaluations?",
+      ],
+      healthcare: [
+        "Are you currently involved in any finance or accounting system evaluations?",
+        "What ERP or accounting system is the finance team on? Any changes planned?",
+        "How many entities or locations is IT supporting today, and where is that headed?",
+        "If finance came to you tomorrow and said they needed a new AP tool, what would their integration requirements look like?",
+        "Who on the finance side is owning the AP requirements? Is that the Controller or CFO?",
+      ],
+    },
+    listenFor: "",
+    recap: `"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`,
+    pitch: {
+      hospitality: [
+        `We're live in multi-property hospitality groups running 50-plus locations. The integration with Jonas, R365, and similar systems is pre-built. IT teams typically don't have to build anything from scratch.`,
+        `Pacifica Hotels runs over 7,000 invoices a month through Ottimate. The implementation was managed without a heavy IT lift on their side.`,
+      ],
+      grocery: [
+        `We work with high-volume grocery operators like Heritage Grocers Group. The finance team gets what they need, and the integration footprint is manageable for IT and makes it easy for the business to scale.`,
+        `Our AI capture doesn't rely on templates, so there's no ongoing maintenance burden for IT when vendors change their invoice formats.`,
+      ],
+      healthcare: [
+        `We're live in DSO and senior living groups with multi-entity structures. PHI redaction is built into the platform, so IT isn't managing a separate compliance layer.`,
+        `For healthcare groups on multi-entity ERP setups, our integration is pre-built and the implementation timeline is typically measured in weeks, not months.`,
+      ],
+    },
+    close: {
+      hospitality: `"Would it make sense to spend 20 minutes with someone on our team so you can see how much time we can save you and what that will mean for your bottom line? We've helped a DSO with 103 sites handle 6,000+ invoices a month with less staff than they had before that they reinvested in growth. I know something like that would be helpful for your operation."`,
+      grocery: `"The best next step is usually a 20-minute call with one of our experts who can walk through the integration and implementation specifics. Would it make sense to loop in your Controller or CFO so we're talking to the full group at once?"`,
+      healthcare: `"The best next step is usually a 20-minute call with one of our experts who can walk through the integration and implementation specifics. Would it make sense to loop in your Controller or CFO so we're talking to the full group at once?"`,
+    },
+  },
 };
