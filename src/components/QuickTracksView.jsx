@@ -78,6 +78,7 @@ function FinanceTrack({ track }) {
       <SectionCard label="Intro" color="#854F0B">
         <ScriptText text={track.intro} />
       </SectionCard>
+      <PainPointsSection />
       <SectionCard label="Discovery" color="#185FA5">
         <ol style={{ margin: 0, padding: "0 0 0 18px", display: "flex", flexDirection: "column", gap: 10 }}>
           {track.discovery.map((q, i) => (
@@ -99,7 +100,6 @@ function FinanceTrack({ track }) {
 }
 
 function NonFinanceTrack({ track }) {
-  const paragraphs = track.talkTrack.split("\n\n").filter(Boolean);
   return (
     <div>
       <div style={{ display: "flex", gap: 10, marginBottom: 12, flexWrap: "wrap" }}>
@@ -112,13 +112,24 @@ function NonFinanceTrack({ track }) {
           <div style={{ fontSize: 13, lineHeight: 1.5, color: "var(--text-primary)", fontStyle: "italic" }}>{track.valueHook}</div>
         </div>
       </div>
-      <SectionCard label="Talk Track" color="#185FA5">
-        <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-          {paragraphs.map((p, i) => (
-            <p key={i} style={{ margin: 0, fontSize: 14, lineHeight: 1.65, color: "var(--text-primary)" }}>{p}</p>
-          ))}
-        </div>
-      </SectionCard>
+      <PainPointsSection />
+      {track.sections.map((section, i) => (
+        <SectionCard key={i} label={section.label} color={section.color}>
+          {section.type === "list" ? (
+            <ol style={{ margin: 0, padding: "0 0 0 18px", display: "flex", flexDirection: "column", gap: 10 }}>
+              {section.content.map((item, j) => (
+                <li key={j} style={{ fontSize: 14, lineHeight: 1.6, color: "var(--text-primary)" }}>{item}</li>
+              ))}
+            </ol>
+          ) : (
+            <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+              {String(section.content).split("\n\n").filter(Boolean).map((p, j) => (
+                <p key={j} style={{ margin: 0, fontSize: 14, lineHeight: 1.65, color: "var(--text-primary)" }}>{p}</p>
+              ))}
+            </div>
+          )}
+        </SectionCard>
+      ))}
     </div>
   );
 }
@@ -251,7 +262,6 @@ export default function QuickTracksView() {
       {step === 3 && track && (
         <div>
           {persona === "finance" ? <FinanceTrack track={track} /> : <NonFinanceTrack track={track} />}
-          <PainPointsSection />
         </div>
       )}
     </div>
