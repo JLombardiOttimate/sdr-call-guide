@@ -6,8 +6,10 @@ import CallGuideTab from "./components/CallGuideTab";
 import ObjectionsTab from "./components/ObjectionsTab";
 import BattlecardsTab from "./components/BattlecardsTab";
 import ResourcesTab from "./components/ResourcesTab";
+import QuickTracksView from "./components/QuickTracksView";
 
 export default function SDRCallGuide() {
+  const [mode, setMode] = useState("guide");
   const [step, setStep] = useState(0);
   const [vertical, setVertical] = useState(null);
   const [role, setRole] = useState(null);
@@ -39,16 +41,31 @@ export default function SDRCallGuide() {
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
       {/* Header */}
-      <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: 16, marginBottom: 24, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+      <div style={{ borderBottom: "1px solid var(--border)", paddingBottom: 16, marginBottom: 20, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div>
           <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: 1.5, color: "#854F0B", textTransform: "uppercase", marginBottom: 4 }}>Ottimate SDR</div>
           <div style={{ fontSize: 22, fontWeight: 700, color: "var(--text-primary)", lineHeight: 1.2 }}>Call Guide</div>
         </div>
         <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          {step > 0 && <button onClick={reset} style={{ background: "none", border: "1px solid var(--border-input)", borderRadius: 6, padding: "6px 14px", fontSize: 13, fontWeight: 500, cursor: "pointer", color: "var(--text-muted)", fontFamily: "inherit" }}>Start over</button>}
+          {mode === "guide" && step > 0 && <button onClick={reset} style={{ background: "none", border: "1px solid var(--border-input)", borderRadius: 6, padding: "6px 14px", fontSize: 13, fontWeight: 500, cursor: "pointer", color: "var(--text-muted)", fontFamily: "inherit" }}>Start over</button>}
           <button onClick={toggleDark} title={darkMode ? "Light mode" : "Dark mode"} style={{ background: "none", border: "1px solid var(--border)", borderRadius: 6, padding: "6px 10px", fontSize: 16, cursor: "pointer", lineHeight: 1 }}>{darkMode ? "☀️" : "🌙"}</button>
         </div>
       </div>
+
+      {/* Mode toggle */}
+      <div style={{ display: "flex", background: "var(--bg-raised)", borderRadius: 8, padding: 3, gap: 3, marginBottom: 24 }}>
+        {[{ id: "guide", label: "Call Guide" }, { id: "quicktracks", label: "Quick Tracks" }].map(m => (
+          <button key={m.id} onClick={() => setMode(m.id)} style={{ flex: 1, padding: "8px 0", borderRadius: 6, border: "none", cursor: "pointer", fontFamily: "inherit", fontSize: 13, fontWeight: 600, background: mode === m.id ? "var(--bg-page)" : "transparent", color: mode === m.id ? "var(--text-primary)" : "var(--text-faint)", boxShadow: mode === m.id ? "0 1px 3px rgba(0,0,0,0.1)" : "none", transition: "all 0.15s" }}>
+            {m.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Quick Tracks mode */}
+      {mode === "quicktracks" && <QuickTracksView />}
+
+      {/* Call Guide mode */}
+      {mode === "guide" && <>
 
       {/* Progress */}
       <div style={{ display: "flex", gap: 6, marginBottom: 28 }}>
@@ -142,8 +159,9 @@ export default function SDRCallGuide() {
           {tab === "battlecards" && <BattlecardsTab selectedCompetitor={selectedCompetitor} setSelectedCompetitor={setSelectedCompetitor} />}
           {tab === "resources" && <ResourcesTab selectedVertical={vertical} />}
         </div>
-  
       )}
+
+      </>}
 
       <div style={{
         marginTop: 48,

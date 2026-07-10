@@ -1,0 +1,76 @@
+export default {
+  finance: {
+    intro: `Hey [Prospect], this is [SDR Name] calling, how are you? Ok, I'm with Ottimate -- does the name ring a bell or does it sound familiar? We work with independent and family-owned grocers and unify backdoor receiving with accounts payable. Teams usually save an average of $250K per year by identifying item cost discrepancies and tracking item prices.`,
+    discovery: [
+      `I'm curious how you're tracking line item prices and discrepancies on invoices today?`,
+      `How do invoices get into your accounting software?`,
+      `I usually hear different approval workflows -- how do invoices get approved before being sent to accounting?`,
+      `Do invoices ever get lost or delayed in the shuffle in that process?`,
+      `Many of the grocers we work with are using Quickbooks, FMS, Sage, or NetSuite. Is your team currently using any of those? [Perfect, we work in conjunction with ___ and have direct integrations.]`,
+      `On a monthly basis, how many invoices are you processing?`,
+      `Many of our grocers use store management software -- is your team using LOC SMS, BR Data, or ECRS? [Amazing, we work in conjunction with ___; our grocers love catching item price and quantity discrepancies before paying vendors.]`,
+      `How is the team currently paying vendors -- ACH, check...?`,
+    ],
+    recap: `So it sounds like your... (recap invoice process and pain experienced). Does that sound accurate, or is there something I'm missing?`,
+    pitch: `A lot of our clients were doing something similar before they started working with us. In a nutshell, with just a picture/scan/email/EDI of the invoice -- any type: food/beverage, utility, rent -- all the invoice information is mapped to your accounting software automatically with customizable approval workflows. Since Ottimate captures all of your invoice data, your team can reconcile vendor statements and even pay vendors within a few clicks via check/ACH/virtual cards with cash back opportunities. All while having clear oversight between one location and another.`,
+    close: `I know you probably have a lot on your plate right now, how about this... Let's set up a time where we can connect, learn a bit more about you, show you how others use us, and answer any questions in real time. I'm pulling up my calendar now. Do you have availability tomorrow at [TIME] AM, or would after lunch work better?`,
+  },
+  nonFinance: [
+    {
+      id: "owner",
+      label: "Owner",
+      primaryPain: "Lack of central oversight and eroding profit margins due to hidden cost increases.",
+      valueHook: `"We turn your AP department from a cost center into a profit center by capturing every cent of data and earning you money back on the bills you're already paying."`,
+      sections: [
+        { label: "Opener", color: "#854F0B", type: "text", content: `Hey [Owner Name], this is [SDR Name] with Ottimate. I'm calling because we work with grocers like Save-Mart, Heritage Grocers Group, and dozens of family-owned grocers to help turn their back office from a cost center into a profit center. Does the name Ottimate ring a bell or does it sound familiar?` },
+        { label: "Why I'm Calling", color: "#555", type: "text", content: `Totally fair. Most grocery owners I speak with feel like they have a bit of a 'black hole' in their back office. They know cash is going out, but they don't actually see item price spikes or vendor discrepancies until it hits the P&L at the end of the month -- when it's already too late.` },
+        { label: "Pitch", color: "#1B7A44", type: "text", content: `Ottimate is a grocery-specific accounts payable and vendor payment automation solution that gives you centralized oversight over every single location and department. We capture and digitize your invoice data, seamlessly sync the data into your accounting software, and you can easily pay bills within a few clicks while also capturing item and quantity discrepancies prior to vendor payment -- so you can protect your margins before you pay bills.` },
+        { label: "Discovery", color: "#185FA5", type: "list", content: [
+          `Many of the grocers we work with are using Quickbooks, FMS, Sage, or Microsoft Dynamics. Is your team currently using either Quickbooks or Sage? [Perfect, we work in conjunction with ___ and have direct integrations.]`,
+          `How are you currently keeping an eye on those unexpected vendor price increases across your stores?`,
+          `On a monthly basis, would you say your team is processing more or less than 500 invoices? How many locations are managed?`,
+        ]},
+        { label: "Recap", color: "#555", type: "text", content: `Got it, so it sounds like a pretty manual process from what you've mentioned -- [recap of invoice process and pain]. Does that sound like what you're looking for, or is there something I'm missing?` },
+        { label: "Close", color: "#6B3FA0", type: "text", content: `A lot of our clients were doing something similar before they started working with us. They love having central oversight while empowering the team to focus on what matters most rather than routine manual data entry and physical check cutting.\n\nI know you have a million things on your plate, so I want to be respectful of your time. Let's set up a time where I can connect you with a grocery specialist to show you how we protect those margins and answer any questions in real time. Aside from yourself, is there an accounting or finance team member who would benefit from sitting in on this with you?\n\nGreat, I'm pulling up my calendar now. Do you have availability tomorrow morning at [TIME], or does after lunch usually work better for you?` },
+      ],
+    },
+    {
+      id: "gm",
+      label: "General Manager",
+      primaryPain: "Time-consuming manual tasks -- scanning, coding, and chasing approvals -- that take them away from the floor and customers.",
+      valueHook: `"Stop acting as a courier for paper invoices; let our AI handle the data entry and approval of invoices so you can focus on your team and your customers."`,
+      sections: [
+        { label: "Opener", color: "#854F0B", type: "text", content: `Hey [GM Name], this is [SDR Name] with Ottimate. I was looking to connect with the General Manager -- is that you? I'll be brief. I'm calling because we work with GMs at grocers like Save-Mart, Heritage Grocers Group, and many family-owned independent stores to automate the 'paper chase' in the back office. Essentially, we allow GMs to focus on what matters most. Does the name Ottimate ring a bell or does it sound familiar?` },
+        { label: "Why I'm Calling", color: "#555", type: "text", content: `Totally fair. GMs we speak with tell us they are absolutely buried under a mountain of manual tasks -- scanning, coding, chasing down missing invoices from vendors, and hunting people down for approvals.` },
+        { label: "Pitch", color: "#1B7A44", type: "text", content: `Ottimate is a grocery-specific platform designed to completely simplify that back-office headache. Instead of manual data entry, your team just snaps a photo on our mobile app or uploads the invoice, and our AI handles the rest. It automatically maps everything to the correct GL codes and routes it through a customizable approval workflow.` },
+        { label: "Discovery", color: "#185FA5", type: "list", content: [
+          `Many of the grocers we work with are using Quickbooks, FMS, Sage, or Microsoft Dynamics. Is your team currently using either Quickbooks or Sage? [Perfect, we work in conjunction with ___ and have direct integrations.]`,
+          `To give me a sense of the value Ottimate can provide -- how many invoices would you say your team is processing on a monthly basis? More or less than 500?`,
+          `How is the team currently paying vendors -- mostly physical check cutting, or do some vendors accept ACH payments?`,
+        ]},
+        { label: "Recap", color: "#555", type: "text", content: `Got it, so it sounds like a pretty manual process from what you've mentioned -- [recap of invoice process and pain]. Does that sound accurate, or is there something I'm missing?` },
+        { label: "Close", color: "#6B3FA0", type: "text", content: `A lot of GMs were in that exact same situation before working with us. They love that Ottimate gives them total visibility into store spend without forcing them to sit in the back office playing forensic accountant.\n\nI know you're likely needed on the floor right now, so let's do this: let's set up a quick 30-minute call. I'll connect you with a grocery specialist to show you how Ottimate can help streamline invoice processing and give you your time back. Aside from yourself, is there an accounting person on the team who handles the day-to-day and should sit in on this with you?\n\nI'm pulling up my calendar now. Do you have a window tomorrow morning at [TIME], or does right after the lunch rush work better for you?` },
+      ],
+    },
+    {
+      id: "inventory",
+      label: "Inventory / Pricing / Purchasing Manager",
+      primaryPain: "Price discrepancies between agreed-upon catalog pricing and what the vendor actually charges on the invoice.",
+      valueHook: `"Never overpay a vendor again. We automatically catch unit-of-measure errors and price creep before the check is even cut."`,
+      sections: [
+        { label: "Opener", color: "#854F0B", type: "text", content: `Hey [Prospect Name], this is [SDR Name] with Ottimate. I'm calling because we work with inventory and purchasing teams at grocers like Save-Mart, Heritage Grocers Group, and dozens of family-owned stores to help grocers get visibility into item price and quantity discrepancies prior to paying vendors. Does the name Ottimate ring a bell or does it sound familiar?` },
+        { label: "Why I'm Calling", color: "#555", type: "text", content: `Totally fair. Most [title]s I speak with are pulling their hair out over vendor price creep and margin leakage. A common headache we hear is that the item prices on a vendor's physical invoice rarely match what's actually agreed upon in your pricebook.` },
+        { label: "Pitch", color: "#1B7A44", type: "text", content: `Ottimate is a grocery-specific platform using AI and ML to streamline and automate invoice processing and vendor payments with two-way or three-way matching capabilities, while also allowing the team to catch item price discrepancies prior to paying bills. Ottimate instantly flags pricing variances and unit-of-measure errors so you can catch mistakes before the check is cut -- ensuring your team only pays for exactly what was received at the price you actually agreed to.` },
+        { label: "Discovery", color: "#185FA5", type: "list", content: [
+          `Is your team currently using store management software like BR Data, ECRS, or LOC SMS? [Perfect, we work in conjunction with ___ and have direct integrations.]`,
+          `Many of the grocers we work with are using Quickbooks, FMS, Sage, or Microsoft Dynamics. Is your team currently using either Quickbooks or Sage? [Amazing, we seamlessly integrate with ___.]`,
+          `How is your team currently catching those unexpected vendor price increases and keeping an eye on catalog discrepancies across your stores?`,
+          `On a monthly basis, would you say your team is processing more or less than 500 invoices? How many locations are you currently managing?`,
+          `How is the team currently paying vendors -- mostly physical check cutting, or do some vendors accept ACH payments?`,
+        ]},
+        { label: "Recap", color: "#555", type: "text", content: `Got it, so it sounds like a pretty manual process from what you've mentioned -- [recap of invoice process and pain]. Does that sound accurate, or is there something I'm missing?` },
+        { label: "Close", color: "#6B3FA0", type: "text", content: `A lot of our [title]s were in that exact same situation before Ottimate. Our grocers love that Ottimate simplifies handling troublesome vendors by providing tools to keep vendors compliant -- ultimately giving the team a foolproof way to identify margin leakage.\n\nI know you have a million things on your plate with orders and deliveries. Let's set up a time where I can connect you with a grocery specialist to show you how Ottimate can help catch those hidden overcharges in real time. Aside from yourself, is there an AP manager or Director of Finance who handles invoice processing and vendor payments and would benefit from sitting in?\n\nGreat, I'm pulling up my calendar now. Do you have availability tomorrow morning at [TIME], or does right after the lunch rush usually work better for you?` },
+      ],
+    },
+  ],
+};
