@@ -94,9 +94,9 @@ export default {
 
   technology_implementation: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate. We build AP automation for hospitality operators and we typically get pulled in during ERP projects or when the finance team is hitting a wall with their current setup. Have you noticed when there's friction between finance and operations teams, IT tends to bear the load of solutioning improvements?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate. We usually get approached by grocers for AP automation support, and as a middleware solution between the back office system and ERP we see that 2.14% of their annual spend stays hidden in cost discrepancies. Do you have visibility into how accounting and operations are tracking this issue?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate. We work with healthcare groups on AP automation, and we often get introduced during ERP migrations or when finance is trying to close compliance gaps. Have you noticed when there's friction between finance and operations teams, IT tends to bear the load of solutioning improvements?"`,
+      hospitality: `"Hi [Name], this is [SDR] from Ottimate. Ottimate is an accounts payable & payment automation solution built specifically for hospitality. Most finance and IT teams I talk to want to process invoices faster and get better control and visibility across systems, without a heavy integration lift. How are you doing that today?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate. We're an accounts payable & payment automation solution built specifically for grocery. Most IT leaders I talk to want better control and visibility between the back-office system and the ERP, without taking on a heavy integration lift. How are you doing that today?"`,
+      healthcare: `"Hi [Name], this is [SDR] from Ottimate. Ottimate is an accounts payable & payment automation solution built specifically for healthcare. Most finance and IT teams I talk to want to process invoices faster and get better control and visibility across entities, without a heavy integration lift or a separate compliance layer. How are you doing that today?"`,
     },
     discovery: {
       hospitality: [

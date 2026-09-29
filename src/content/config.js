@@ -10,6 +10,8 @@ export const ROLES = [
   { id: "ap_manager", label: "AP Manager / Clerk", sub: "Secondary champion · 40% win rate" },
   { id: "owner_ops", label: "Owner / GM / Ops", sub: "Economic buyer · 70% win rate when engaged" },
   { id: "it_leader", label: "IT / Technical", sub: "Lateral influencer · integration and security focus" },
+  { id: "dir_pricing", label: "Dir of Pricing / Inventory", sub: "Grocery · vendor cost and margin control" },
+  { id: "dir_ops", label: "Dir of Operations", sub: "Grocery · store efficiency and AP control" },
 ];
 
 export const TRIGGERS = [
