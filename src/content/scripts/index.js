@@ -3,8 +3,10 @@ import cfo from './cfo';
 import ap_manager from './ap-manager';
 import owner_ops from './owner-ops';
 import it_leader from './it-leader';
+import dir_pricing from './dir-pricing';
+import dir_ops from './dir-ops';
 
-const SCRIPTS = { controller, cfo, ap_manager, owner_ops, it_leader };
+const SCRIPTS = { controller, cfo, ap_manager, owner_ops, it_leader, dir_pricing, dir_ops };
 
 export function getScript(role, trigger, vertical) {
   const r = SCRIPTS[role];

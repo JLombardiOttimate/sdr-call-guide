@@ -1,9 +1,9 @@
 export default {
   generic: {
     intro: {
-      hospitality: `"Hi [Name], this is [SDR] from Ottimate. I work with a lot of hospitality operators, and something I've noticed: they often have a general feeling that something is off with their AP workflows, but can't put their finger on it. Does that ever happen to you?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate. I work with a lot of grocery operators. They often feel something's off with AP but can't pin it down. Does that ever happen to you?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate. I work with a lot of healthcare operators. They often sense something's off with AP but can't pin it down. Does that resonate?"`,
+      hospitality: `"Hi [Name], this is [SDR] from Ottimate. We're built specifically for hospitality. Most owners and GMs I talk to want to process invoices faster, get more clarity on margins, and have better control across every property without adding headcount. How are you doing that today?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate. We're an accounts payable & payment automation solution built specifically for grocery. Most owners and operators I talk to want to process invoices faster, get more clarity on vendor costs and margins, and have better control across every store without adding headcount. How are you doing that today?"`,
+      healthcare: `"Hi [Name], this is [SDR] from Ottimate. Ottimate is an accounts payable & payment automation solution built specifically for healthcare. Most owners and operators I talk to want to process invoices faster, get more clarity on margins, and have better control across every entity without adding headcount. How are you doing that today?"`,
     },
     discovery: [
       "What's keeping you up at night operationally: staffing, costs, growth?",
@@ -14,22 +14,22 @@ export default {
     recap: `"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`,
     pitch: {
       hospitality: [
-        "A restaurant group automated AP and went from 50 hours a week to 4. They redirected capacity to revenue management.",
+        `Like other AP tools, we capture your invoice data, route it through customizable approval workflows, and map it to your accounting software, but we go further. We automatically map every line item to the correct GL, flag risky invoices before they're approved, reconcile vendor statements automatically, and make it easy to manage cash flow across every property. That simplifies paying vendors on time with a lot more accuracy and confidence. And along the way, you get real insights from your AP data, which vendors are giving you the best deals and where margin is quietly leaking, so your team spends less time on data entry and more time on what actually drives your business.`,
       ],
       grocery: [
-        "A 115-store grocer cut AP processing by 70% and recovered $4.9M in cost leakage.",
+        `Like other AP tools, we capture your invoice data, route it through customizable approval workflows, and map it to your accounting software, but we go further. We automatically map every line item to the correct GL, flag risky invoices before they're approved, reconcile vendor statements automatically, and make it easy to manage cash flow across every store. That simplifies paying vendors on time with a lot more accuracy and confidence. And along the way, you get real insights from your AP data, which vendors are giving you the best deals and where costs are quietly leaking, so your team spends less time on data entry and more time on what actually drives your business.`,
       ],
       healthcare: [
-        "A DSO with 103 sites handles 6,000+ invoices a month with less staff than before.",
+        `Like other AP tools, we capture your invoice data, route it through customizable approval workflows, and map it to your accounting software, but we go further. We automatically map every line item to the correct GL, flag risky invoices before they're approved, reconcile vendor statements automatically, and make it easy to manage cash flow across every entity. That simplifies paying vendors on time with a lot more accuracy and confidence. And along the way, you get real insights from your AP data, which vendors are giving you the best deals and where margin is quietly leaking, so your team spends less time on data entry and more time on what actually drives your business.`,
       ],
     },
     close: `"Would it make sense to spend 20 minutes with someone on our team who can show you what this looks like and how it impacts your model?"`,
   },
   competitor_frustration: {
     intro: {
-      hospitality: `"Hi [Name], [Name] from Ottimate. We help hospitality groups automate their back office so they can redeploy staff toward growth instead of paperwork. Looking at your current setup, which part of the AP process is still forcing your team to stay stuck in the weeds of manual entry?"`,
-      grocery: `"Hi [Name], this is [SDR] from Ottimate — we provide item-specific profitability protection for grocers. We're hearing everybody is margin-squeezed right now, and we usually see the grocers we work with recover 2.14% of their annual spend in cost discrepancies. Curious about how you're managing this?"`,
-      healthcare: `"Hi [Name], this is [SDR] from Ottimate — we're a fully HIPAA-compliant AP automation platform built for healthcare organizations. DSOs that automate AP can scale revenue without scaling support costs — that's pure leverage for EBITDA. What would it mean for your growth model if your AP function could handle twice the volume without adding headcount?"`,
+      hospitality: `"Hi [Name], this is [SDR] from Ottimate. We're built specifically for hospitality. Most owners and GMs I talk to want to process invoices faster, get more clarity on margins, and have better control across every property without adding headcount. How are you doing that today?"`,
+      grocery: `"Hi [Name], this is [SDR] from Ottimate. We're an accounts payable & payment automation solution built specifically for grocery. Most owners and operators I talk to want to process invoices faster, get more clarity on vendor costs and margins, and have better control across every store without adding headcount. How are you doing that today?"`,
+      healthcare: `"Hi [Name], this is [SDR] from Ottimate. Ottimate is an accounts payable & payment automation solution built specifically for healthcare. Most owners and operators I talk to want to process invoices faster, get more clarity on margins, and have better control across every entity without adding headcount. How are you doing that today?"`,
     },
     discovery: {
       hospitality: [
@@ -55,15 +55,15 @@ export default {
     recap: `"Sounds like what I'm hearing is that you're currently struggling with [insert pain points]. Does that sound right, or what am I missing?"`,
     pitch: {
       hospitality: [
-        `To grow at the rate you want, your back office can't be a boat anchor. By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
+        `Like other AP tools, we capture your invoice data, route it through customizable approval workflows, and map it to your accounting software, but we go further. We automatically map every line item to the correct GL, flag risky invoices before they're approved, reconcile vendor statements automatically, and make it easy to manage cash flow across every property. That simplifies paying vendors on time with a lot more accuracy and confidence. And along the way, you get real insights from your AP data, which vendors are giving you the best deals and where margin is quietly leaking, so your team spends less time on data entry and more time on what actually drives your business.`,
         "A restaurant group automated their AP and went from 50 hours a week to 4. They redirected that capacity to revenue management.",
       ],
       grocery: [
-        `By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
+        `Like other AP tools, we capture your invoice data, route it through customizable approval workflows, and map it to your accounting software, but we go further. We automatically map every line item to the correct GL, flag risky invoices before they're approved, reconcile vendor statements automatically, and make it easy to manage cash flow across every store. That simplifies paying vendors on time with a lot more accuracy and confidence. And along the way, you get real insights from your AP data, which vendors are giving you the best deals and where costs are quietly leaking, so your team spends less time on data entry and more time on what actually drives your business.`,
         "A 115-store grocer cut AP processing by 70% and recovered $4.9M in cost leakage. Both margin and operational efficiency.",
       ],
       healthcare: [
-        `By automating AP, you gain the ability to open new locations without adding new headcount. You get a real-time pulse on your cash flow and COGS, allowing you to make faster, more aggressive pivots than your competitors who are still waiting for their controllers to finish last month's manual entry.`,
+        `Like other AP tools, we capture your invoice data, route it through customizable approval workflows, and map it to your accounting software, but we go further. We automatically map every line item to the correct GL, flag risky invoices before they're approved, reconcile vendor statements automatically, and make it easy to manage cash flow across every entity. That simplifies paying vendors on time with a lot more accuracy and confidence. And along the way, you get real insights from your AP data, which vendors are giving you the best deals and where margin is quietly leaking, so your team spends less time on data entry and more time on what actually drives your business.`,
       ],
     },
     close: {
